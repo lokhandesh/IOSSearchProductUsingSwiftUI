@@ -11,6 +11,10 @@
 		76AA63D62C5B91C10005B1EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AA63D52C5B91C10005B1EC /* ContentView.swift */; };
 		76AA63D82C5B91C30005B1EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AA63D72C5B91C30005B1EC /* Assets.xcassets */; };
 		76AA63DB2C5B91C30005B1EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AA63DA2C5B91C30005B1EC /* Preview Assets.xcassets */; };
+		76AA63E22C5B91F70005B1EC /* SearchResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AA63E12C5B91F70005B1EC /* SearchResultRow.swift */; };
+		76AA63E42C5B92310005B1EC /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AA63E32C5B92310005B1EC /* SearchResponse.swift */; };
+		76AA63E62C5B92430005B1EC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AA63E52C5B92430005B1EC /* ContentViewModel.swift */; };
+		76AA63E82C5B9D0E0005B1EC /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AA63E72C5B9D0E0005B1EC /* SearchResultViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		76AA63D52C5B91C10005B1EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76AA63D72C5B91C30005B1EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AA63DA2C5B91C30005B1EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76AA63E12C5B91F70005B1EC /* SearchResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultRow.swift; sourceTree = "<group>"; };
+		76AA63E32C5B92310005B1EC /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		76AA63E52C5B92430005B1EC /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		76AA63E72C5B9D0E0005B1EC /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				76AA63D52C5B91C10005B1EC /* ContentView.swift */,
 				76AA63D72C5B91C30005B1EC /* Assets.xcassets */,
 				76AA63D92C5B91C30005B1EC /* Preview Content */,
+				76AA63E12C5B91F70005B1EC /* SearchResultRow.swift */,
+				76AA63E32C5B92310005B1EC /* SearchResponse.swift */,
+				76AA63E52C5B92430005B1EC /* ContentViewModel.swift */,
+				76AA63E72C5B9D0E0005B1EC /* SearchResultViewModel.swift */,
 			);
 			path = SearchProductUsingSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76AA63E42C5B92310005B1EC /* SearchResponse.swift in Sources */,
+				76AA63E82C5B9D0E0005B1EC /* SearchResultViewModel.swift in Sources */,
 				76AA63D62C5B91C10005B1EC /* ContentView.swift in Sources */,
 				76AA63D42C5B91C10005B1EC /* SearchProductUsingSwiftUIApp.swift in Sources */,
+				76AA63E22C5B91F70005B1EC /* SearchResultRow.swift in Sources */,
+				76AA63E62C5B92430005B1EC /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SearchProductUsingSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FS2YXC8YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SearchProductUsingSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 5FS2YXC8YY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
